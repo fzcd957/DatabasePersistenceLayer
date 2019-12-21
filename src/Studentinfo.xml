@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-table-mapping>
+	<mapping class="com.mec.database.model.StudentinfoModel" table="student_info">
+		<column id="StudentId" property="studentId" column="stNumber"></column>
+		<column property="id" column="ID"></column>
+		<column property="status" column="Status"></column>
+		<column property="name" column="name"></column>	
+		<column property="sex" column="sex"></column>	
+	</mapping>	
+</class-table-mapping>
